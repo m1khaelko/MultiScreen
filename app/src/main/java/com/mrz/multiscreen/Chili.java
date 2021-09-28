@@ -1,6 +1,14 @@
 package com.mrz.multiscreen;
 
-import android.app.Activity;
+import androidx.appcompat.app.AppCompatActivity;
 
-public class Chili extends Activity {
+import android.os.Bundle;
+
+public class Chili extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_chili);
+    }
 }

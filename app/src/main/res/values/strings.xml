@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">MultiScreen</string>
+    <string name="bras_name">Бразилия флаг</string>
+    <string name="argen_name">Аргенита флаг</string>
+    <string name="columb_name">Колубмия флаг</string>
+    <string name="chili_name">Чили флаг</string>
+    <string name="urugv_name">Уругваи флаг</string>
 </resources>

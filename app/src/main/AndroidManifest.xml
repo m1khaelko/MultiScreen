@@ -9,6 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MultiScreen">
+        <activity android:name=".Argentina">Argentina</activity>
+        <activity android:name=".Brasilia">Brasilia</activity>
+        <activity android:name=".Columbia">Columbia</activity>
+        <activity android:name=".Chili">Chili</activity>
+        <activity android:name=".Uruguay">Uruguay</activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -16,16 +21,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <activity android:name=".Argentina"></activity>
-
-        <activity android:name=".Brasilia"></activity>
-
-        <activity android:name=".Chili"></activity>
-
-        <activity android:name=".Columbia"></activity>
-
-        <activity android:name=".Uruguay"></activity>
     </application>
 
 </manifest>
